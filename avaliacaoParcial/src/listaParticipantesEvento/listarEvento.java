@@ -77,9 +77,15 @@ public class listarEvento {
 				posicao = pos.nextInt();
 
 				// Validação
+				
+				if(posicao!= listarParticipantes.size()) {
+					System.err.println("Não existe Participante nessa posição, Tente novamente!");
+				} else {
+					listarParticipantes.remove(posicao);
+				    System.out.println("Participante removido com sucesso ");
+				}
 
-				listarParticipantes.remove(posicao);
-				System.out.println("Participante removido com sucesso ");
+				
 				System.out.println("|----#----#----#----#----#----#----#----#----#----#----|");
 
 				break;
