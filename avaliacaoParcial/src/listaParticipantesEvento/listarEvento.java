@@ -116,6 +116,7 @@ public class listarEvento {
 				for (int i = 0; i < listarParticipantes.size(); i++) {
 					System.out.println(listarParticipantes.get(i));
 				}
+				
 				System.out.println("|----#----#----#----#----#----#----#----#----#----#----|");
 
 				break;
