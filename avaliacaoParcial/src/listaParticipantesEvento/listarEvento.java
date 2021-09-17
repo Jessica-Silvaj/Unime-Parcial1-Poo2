@@ -78,7 +78,7 @@ public class listarEvento {
 
 				// Validação
 				
-				if(posicao!= listarParticipantes.size()) {
+				if(!listarParticipantes.contains(posicao)) {
 					System.err.println("Não existe Participante nessa posição, Tente novamente!");
 				} else {
 					listarParticipantes.remove(posicao);
